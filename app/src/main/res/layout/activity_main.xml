@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <in.goodiebag.carouselpicker.CarouselPicker
+    android:id="@+id/carouselPicker1"
+        android:background="#DDD"
+    android:layout_marginTop="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:items_visible="three">
+    </in.goodiebag.carouselpicker.CarouselPicker>
+
+    <in.goodiebag.carouselpicker.CarouselPicker
+        android:id="@+id/carouselPicker2"
+        android:layout_marginTop="40dp"
+        android:background="#DDD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:items_visible="three">
+    </in.goodiebag.carouselpicker.CarouselPicker>
+
+    <in.goodiebag.carouselpicker.CarouselPicker
+        android:id="@+id/carouselPicker3"
+        android:layout_marginTop="60dp"
+        android:background="#DDD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:items_visible="three">
+    </in.goodiebag.carouselpicker.CarouselPicker>
+
+    <in.goodiebag.carouselpicker.CarouselPicker
+        android:id="@+id/carouselPicker4"
+        android:layout_marginTop="80dp"
+        android:background="#DDD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:items_visible="three">
+    </in.goodiebag.carouselpicker.CarouselPicker>
+
+</LinearLayout>
